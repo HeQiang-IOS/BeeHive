@@ -1,0 +1,22 @@
+platform :ios, '9.0'
+use_frameworks!
+
+def pods
+	pod "BeeHive", :path => "../"
+end
+
+target 'StudyTest' do
+ 
+  pods
+  # Pods for StudyTest
+
+  target 'StudyTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'StudyTestUITests' do
+    # Pods for testing
+  end
+
+end

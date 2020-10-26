@@ -1,0 +1,16 @@
+PODS:
+  - BeeHive (1.6.0)
+
+DEPENDENCIES:
+  - BeeHive (from `../`)
+
+EXTERNAL SOURCES:
+  BeeHive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+
+PODFILE CHECKSUM: 58bfffb1abc2d056f19497beec0c8401d9bbf60b
+
+COCOAPODS: 1.9.1
